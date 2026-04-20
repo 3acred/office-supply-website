@@ -30,7 +30,7 @@
       "spec": "8GB DDR4 2666MHz",
       "applicable": "台式机电脑",
       "price": 235,
-      "image": "images/products/2666 kingston.jpg",
+      "image": "images/products/2666-kingston.jpg",
       "views": 0
     },
     {
@@ -41,7 +41,7 @@
       "spec": "16GB DDR4 3200MHz",
       "applicable": "台式机电脑",
       "price": 420,
-      "image": "images/products/kingston 3200 16g.jpg",
+      "image": "images/products/kingston-3200-16g.jpg",
       "views": 0
     },
     {
@@ -52,7 +52,7 @@
       "spec": "1TB 7200转 64MB",
       "applicable": "台式机电脑",
       "price": 380,
-      "image": "images/products/blue 1tb.jpg",
+      "image": "images/products/blue-1tb.jpg",
       "views": 0
     },
     {
@@ -63,7 +63,7 @@
       "spec": "480GB SATA3 SSD",
       "applicable": "台式机/笔记本",
       "price": 299,
-      "image": "images/products/480g kingston.jpg",
+      "image": "images/products/480g-kingston.jpg",
       "views": 0
     },
     {
@@ -74,7 +74,7 @@
       "spec": "2.4G无线，键盘+鼠标",
       "applicable": "台式机/笔记本",
       "price": 159,
-      "image": "images/products/logic mk235.jpg",
+      "image": "images/products/logic-mk235.jpg",
       "views": 0
     },
     {
@@ -85,7 +85,7 @@
       "spec": "静音设计，2.4G无线",
       "applicable": "台式机/笔记本",
       "price": 89,
-      "image": "images/products/logic M330.jpg",
+      "image": "images/products/logic-m330.jpg",
       "views": 0
     },
     {
@@ -118,7 +118,7 @@
       "spec": "8GB DDR4 2666MHz",
       "applicable": "台式机电脑",
       "price": 210,
-      "image": "images/products/2666 kingston.jpg",
+      "image": "images/products/2666-kingston.jpg",
       "views": 0
     },
     {
