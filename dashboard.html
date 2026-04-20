@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据看板 - XX办公耗材</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">XX办公<span>耗材</span></a>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="dashboard.html">数据看板</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">数据看板</h1>
+        
+        <div class="stats-cards" id="statsCards"></div>
+        
+        <div class="chart-container">
+            <h3 style="margin-bottom:20px">热门产品访问量排行</h3>
+            <div id="productChart" style="height:400px"></div>
+        </div>
+        
+        <div class="chart-container">
+            <h3 style="margin-bottom:20px">产品分类访问占比</h3>
+            <div id="categoryChart" style="height:400px"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>XX办公耗材有限公司</p>
+        <p>电话：123-4567-8901 | 地址：XX市XX区XX路XX号</p>
+        <p>© 2024 XX办公耗材 版权所有</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>产品中心 - XX办公耗材</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">XX办公<span>耗材</span></a>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="dashboard.html">数据看板</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">产品中心</h1>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索产品型号或名称...">
+        </div>
+        
+        <div class="category-filter" id="categoryFilter">
+            <button class="filter-btn active" data-category="all">全部</button>
+            <button class="filter-btn" data-category="硒鼓">硒鼓</button>
+            <button class="filter-btn" data-category="内存">内存</button>
+            <button class="filter-btn" data-category="硬盘">硬盘</button>
+            <button class="filter-btn" data-category="外设">外设</button>
+        </div>
+        
+        <div class="product-grid" id="productList"></div>
+    </main>
+
+    <footer class="footer">
+        <p>XX办公耗材有限公司</p>
+        <p>电话：123-4567-8901 | 地址：XX市XX区XX路XX号</p>
+        <p>© 2024 XX办公耗材 版权所有</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

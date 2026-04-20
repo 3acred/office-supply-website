@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XX办公耗材 - 专业办公耗材及电脑零件供应商</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">XX办公<span>耗材</span></a>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="dashboard.html">数据看板</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="slider">
+            <div class="slide slide1">
+                <div class="slide-content">
+                    <h2>专业办公耗材供应商</h2>
+                    <p>品质保证，价格优惠</p>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slide-content">
+                    <h2>电脑零件一站式采购</h2>
+                    <p>内存、硬盘、外设齐全</p>
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <h2>贴心服务，快速响应</h2>
+                    <p>电话咨询，即时报价</p>
+                </div>
+            </div>
+        </div>
+        <div class="prev" onclick="prevSlide()">❮</div>
+        <div class="next" onclick="nextSlide()">❯</div>
+        <div class="dots">
+            <span class="dot active" onclick="showSlide(0)"></span>
+            <span class="dot" onclick="showSlide(1)"></span>
+            <span class="dot" onclick="showSlide(2)"></span>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <h2 class="section-title">热门产品推荐</h2>
+            <div class="product-grid" id="hotProducts"></div>
+        </div>
+        
+        <div class="recommend-section" id="recommendSection" style="display:none">
+            <div class="container">
+                <h2 class="section-title">猜你喜欢</h2>
+                <div class="product-grid" id="guessYouLike"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2 class="section-title">我们的优势</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; text-align:center; margin:40px 0">
+                <div><span style="font-size:3rem">📦</span><h3>正品保证</h3><p>原厂货源，品质保障</p></div>
+                <div><span style="font-size:3rem">🚚</span><h3>快速配送</h3><p>同城当日达</p></div>
+                <div><span style="font-size:3rem">💯</span><h3>售后无忧</h3><p>7天无理由退换</p></div>
+                <div><span style="font-size:3rem">💰</span><h3>价格优惠</h3><p>批量采购更优惠</p></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>XX办公耗材有限公司</p>
+        <p>电话：123-4567-8901 | 地址：XX市XX区XX路XX号</p>
+        <p>© 2024 XX办公耗材 版权所有</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
