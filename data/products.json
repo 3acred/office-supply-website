@@ -19,7 +19,7 @@
       "spec": "标准容量，可打印约1500页",
       "applicable": "惠普LaserJet Pro M125/M127系列",
       "price": 380,
-      "image": "images/products/hp-cf283a.jpg",
+      "image": "images/products/CF283A.jpg",
       "views": 0
     },
     {
@@ -30,7 +30,7 @@
       "spec": "8GB DDR4 2666MHz",
       "applicable": "台式机电脑",
       "price": 235,
-      "image": "images/products/kingston-8g.jpg",
+      "image": "images/products/2666 kingston.jpg",
       "views": 0
     },
     {
@@ -41,7 +41,7 @@
       "spec": "16GB DDR4 3200MHz",
       "applicable": "台式机电脑",
       "price": 420,
-      "image": "images/products/kingston-16g.jpg",
+      "image": "images/products/kingston 3200 16g.jpg",
       "views": 0
     },
     {
@@ -52,7 +52,7 @@
       "spec": "1TB 7200转 64MB",
       "applicable": "台式机电脑",
       "price": 380,
-      "image": "images/products/wd-1tb.jpg",
+      "image": "images/products/blue 1tb.jpg",
       "views": 0
     },
     {
@@ -63,7 +63,7 @@
       "spec": "480GB SATA3 SSD",
       "applicable": "台式机/笔记本",
       "price": 299,
-      "image": "images/products/kingston-480g.jpg",
+      "image": "images/products/480g kingston.jpg",
       "views": 0
     },
     {
@@ -74,7 +74,7 @@
       "spec": "2.4G无线，键盘+鼠标",
       "applicable": "台式机/笔记本",
       "price": 159,
-      "image": "images/products/logitech-mk235.jpg",
+      "image": "images/products/logic mk235.jpg",
       "views": 0
     },
     {
@@ -85,7 +85,7 @@
       "spec": "静音设计，2.4G无线",
       "applicable": "台式机/笔记本",
       "price": 89,
-      "image": "images/products/logitech-m330.jpg",
+      "image": "images/products/logic M330.jpg",
       "views": 0
     },
     {
@@ -96,7 +96,7 @@
       "spec": "标准容量，可打印约2100页",
       "applicable": "惠普LaserJet Pro M1536/MFP系列",
       "price": 450,
-      "image": "images/products/hp-ce278a.jpg",
+      "image": "images/products/CE278A.jpg",
       "views": 0
     },
     {
@@ -107,7 +107,7 @@
       "spec": "标准容量，可打印约1500页",
       "applicable": "三星ML-1676/SCX-3201",
       "price": 320,
-      "image": "images/products/samsung-d101s.jpg",
+      "image": "images/products/MLT.jpg",
       "views": 0
     },
     {
@@ -118,7 +118,7 @@
       "spec": "8GB DDR4 2666MHz",
       "applicable": "台式机电脑",
       "price": 210,
-      "image": "images/products/adata-8g.jpg",
+      "image": "images/products/2666 kingston.jpg",
       "views": 0
     },
     {
@@ -129,7 +129,7 @@
       "spec": "2TB 7200转 256MB",
       "applicable": "台式机电脑",
       "price": 450,
-      "image": "images/products/seagate-2tb.jpg",
+      "image": "images/products/2tb.jpg",
       "views": 0
     }
   ]
