@@ -40,13 +40,13 @@
             <div class="contact-form">
                 <h3>在线留言</h3>
                 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-    <!-- 这个隐藏字段是必须的，Netlify用它来识别表单 -->
-    <input type="hidden" name="form-name" value="contact" />
-    
-    <!-- 蜜罐字段：防垃圾邮件，会自动隐藏，用户看不见 -->
-    <p style="display:none">
-        <input type="text" name="bot-field" />
-    </p>
+                    <!-- 必需：Netlify 表单识别 -->
+                    <input type="hidden" name="form-name" value="contact" />
+                    <!-- 蜜罐防垃圾 -->
+                    <p style="display:none">
+                        <input type="text" name="bot-field" />
+                    </p>
+                    
                     <input type="text" name="name" placeholder="您的姓名" required>
                     <input type="email" name="email" placeholder="您的邮箱" required>
                     <input type="text" name="phone" placeholder="联系电话">
